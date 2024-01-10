@@ -1,5 +1,7 @@
 package com.example.resume_service.service;
 
+import java.util.List;
+
 import com.example.resume_service.model.Resume;
 import com.example.resume_service.repository.ResumeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +16,10 @@ public class ResumeService {
         return res.getId();
     }
 
-    public Resume getResumeById(Long id){
-        return new Resume();
+    public List<Resume> getResumeById(Long id){
+        return resumeRepository.findById(id);
     }
-    public Resume getResumeByName(String name) {
-        return new Resume();
+    public List<Resume> getResumeByName(String name) {
+        return resumeRepository.findByName(name);
     }
 }

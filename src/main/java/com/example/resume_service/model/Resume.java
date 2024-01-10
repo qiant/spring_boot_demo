@@ -24,8 +24,8 @@ public class Resume {
         this.name = name;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.title = title;    // current job title
-        this.jobDescription = jobDescription; // current job description
+        this.title = title;
+        this.jobDescription = jobDescription;
         this.company = company;
     }
 
