@@ -1,6 +1,6 @@
 # README Resume Service SpringBoot with MongoDB #
 
-This demo project creates a web service for resume service which accepts new resume upload and existing resume retrieval. 
+This demo project creates a web service for resume service which accepts new resume upload and existing resume retrieval through RESTFul API calls. 
 
 ### What is this repository for? ###
 The demo project is built with SpringBoot and MongoDB.  
