@@ -47,7 +47,7 @@ public class ResumeController {
 
     @GetMapping("api/getResumeByName/{name}")
     @ResponseBody
-    public List<Resume> getResumeById(@PathVariable String name) {
+    public List<Resume> getResumeByName(@PathVariable String name) {
         try {
             return service.getResumeByName(name);
         } catch (Exception e) {
